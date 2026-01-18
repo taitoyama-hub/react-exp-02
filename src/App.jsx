@@ -16,8 +16,11 @@ function App() {
 
 
   useEffect(() => {
-
+    console.log("名前が変更されました");
   }, [])
+
+
+  console.log("起動しました");
 
   return (
     <>
