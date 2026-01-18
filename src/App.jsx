@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   return (
     <>
       {/*  */}
