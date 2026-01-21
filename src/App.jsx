@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import News from "./components/News";
+import SideBar from "./layout/SideBar";
+import Header from "./layout/Header";
+import ChartBar from "./components/ChartBar";
+import CalenderItem from "./components/CalenderItem";
+
 
 function App() {
     const [name, setName] = useState("");
@@ -23,7 +28,11 @@ function App() {
 
     return (
         <>
+            <Header />
+            <SideBar />
             <News />
+            <ChartBar />
+            <CalenderItem />
             <div>
                 <p>名前が入ります</p>
                 <input
