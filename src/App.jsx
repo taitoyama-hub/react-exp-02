@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import Chart from "./pages/chart";
 import CustomerList from "./pages/customer";
 import NotFound from "./pages/notfound";
+import Orders from "./pages/orders";
 
 function App() {
     // inputが2個あるので、入力したものを保持するためにuseStateが2ついります
@@ -69,6 +70,7 @@ function App() {
                     <Route path="/chart" element={<Chart />} />
                     <Route path="/customer" element={<CustomerList />} />
                     <Route path="*" element={<NotFound />} />
+                    <Route path="/orders" element={<Orders />} />
                 </Routes>
             </Router>
             {/*  */}

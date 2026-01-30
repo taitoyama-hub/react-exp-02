@@ -22,6 +22,9 @@ const SideBar = () => {
                 <li>
                     <Link to="/logout">ログアウト</Link>
                 </li>
+                <li>
+                    <Link to="/orders">注文管理</Link>
+                </li>
             </ul>
             {/*  */}
         </div>
